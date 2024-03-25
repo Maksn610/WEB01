@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#ffdad7, #fff7f9);
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-left {
+    max-width: 600px;
+    margin: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-left-title {
+    font-weight: 600;
+    color: #EC6EAD;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-left-title hr {
+    border: none;
+    width: 100%;
+    height: 5px;
+    background-color: #EC6EAD;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.contact-inputs:focus {
+    border-color: #ff994f;
+}
+
+.contact-left textarea {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.contact-left button {
+    background-color: #EC6EAD;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-left button:hover {
+    background-color: #3494E6;
+}

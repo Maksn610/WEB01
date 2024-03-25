@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+body {
+  background-color: #000;
+  font-family: "Open Sans", sans-serif;
+  margin: 200px;
+}
+
+.container h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+details {
+  background-color: #303030;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 100px;
+}
+
+summary {
+  padding: 0.5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  transition: height 1s ease;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary:after {
+  content: "+";
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+details[open] summary:after {
+  content: "×";
+}
+details[open] div {
+  padding: 0.5em 1em;
+}
+
+/*# sourceMappingURL=faq.css.map */
